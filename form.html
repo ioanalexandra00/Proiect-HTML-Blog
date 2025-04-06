@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="css/form.css">
 </head>
 
 <body>
@@ -22,11 +23,13 @@
     <section>
         
         <form>
-            <p>Gender:
-                    <label><input type="radio" name="gender" value="male" />Male</label>
-                    <label><input type="radio" name="gender" value="female" />Female</label>
-                    <label><input type="radio" name="gender" value="prefer not to say" />Prefer not to say</label>
-            </p>
+            <p>Gender:</p>
+            <div class="radio-group">
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="prefer not to say"> Prefer not to say</label>
+            </div>
+
         
             <p>
                 <label for="firstName">First Name:</label>
